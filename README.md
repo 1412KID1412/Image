@@ -3,9 +3,9 @@
 
 需要注意  **信息脱敏处理**
 
+# Typroa中PicGo-Core配置如下：
 
-PicGo-Core配置如下：
-
+```json
 {
   "picBed": {
     "current": "github",
@@ -46,7 +46,7 @@ PicGo-Core配置如下：
   {origin}，文件原名（会去掉后缀）
   {rand:<count>}, 随机数，<count>表示个数，默认为6个，示例：{rand：32}、{rand}
   {localFolder:<count>}, <count>表示层级 ，默认为1，示例：{localFolder:6}、{localFolder}
-  
+
   设置路径格式为：
   fix-dir/{localFolder:2}/{y}/{m}/{d}/{h}-{i}-{s}-{hash}-{origin}-{rand:6}
   上传的文件将会被重命名为：
@@ -56,3 +56,4 @@ PicGo-Core配置如下：
     "format": "{y}/{m}/{d}/{hash}-{rand}"
   }
 }
+```
