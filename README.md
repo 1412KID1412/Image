@@ -1,9 +1,12 @@
 # Image
+
 用于保存markdown文件中的图片
 
 需要注意  **信息脱敏处理**
 
 # Typroa中PicGo-Core配置如下：
+
+[一个PicGo重命名插件](https://github.com/liuwave/picgo-plugin-rename-file)
 
 ```json
 {
@@ -19,19 +22,9 @@
   },
   "picgoPlugins": {
     // 根据时间对图片重命名
-    "picgo-plugin-rename-file": true
-    //    "picgo-plugin-super-prefix": true
-    //    "picgo-plugin-super-prefix": true
-    ,
+    "picgo-plugin-rename-file": true,
     "picgo-plugin-super-prefix": true
   },
-  //  // 根据时间对图片重命名
-  //  "picgo-plugin-super-prefix": {
-  //    // 根据日期创建文件夹
-  //    "prefixFormat": "YYYY/MM/DD/",
-  //    // 根据当前日期和时间进行重命名
-  //    "fileFormat": "YYYYMMDD-HHmmss"
-  //  },
   /**
   picgo-plugin-rename-file插件的命名规则
   {y} 年，4位
