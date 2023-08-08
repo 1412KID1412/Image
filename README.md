@@ -52,7 +52,7 @@
   fix-dir/images/test/2020/07/24/21-40-31-36921a9c364ed4789d4bc684bcb81d62-localImage-fa2c97.jpg
   */
   "picgo-plugin-rename-file": {
-    "format": "{y}/{m}/{d}/{hash}-{rand}"
+    "format": "{y}/{m}/{d}/{h}{i}{s}{ms}-{rand}"
   }
 }
 ```
