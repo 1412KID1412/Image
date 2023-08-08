@@ -7,6 +7,7 @@
 # Typroa中PicGo-Core配置如下：
 
 [一个PicGo重命名插件](https://github.com/liuwave/picgo-plugin-rename-file)
+[PicGo实用的插件](https://blog.csdn.net/weixin_45118180/article/details/119215202)
 
 ```json
 {
@@ -26,6 +27,10 @@
     "picgo-plugin-super-prefix": true
   },
   /**
+  使用前需要安装插件：
+  cd {PicGo_Path}
+  .\picgo.exe install rename-file
+
   picgo-plugin-rename-file插件的命名规则
   {y} 年，4位
   {m} 月，2位
